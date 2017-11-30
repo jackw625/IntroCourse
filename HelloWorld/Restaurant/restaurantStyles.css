@@ -6,3 +6,19 @@
     color:blue;
     text-align:center;
 }
+
+h1 {
+    font-family: courier;
+}
+
+.menu {
+    background-color: green;
+}
+
+.home {
+    background-color: green;
+}
+
+.requiredstuff {
+    font-weight: bold;
+}
