@@ -1,0 +1,35 @@
+Total Height	
+Margin-top	20
+Border-top	1
+Padding-top	10
+Height	150
+padding-bottom	10
+border-bottom	1
+margin-bottom	20
+Total	212px
+	
+Total width	
+Margin-left	20
+Border-left	1
+Padding-left	10
+width	400
+padding-right	10
+border-right	1
+margin-right	20
+Total	462px
+	
+Browser Calculated Height	
+Border-top	1
+Padding-top	10
+Height	150
+padding-bottom	10
+border-bottom	1
+Total	172px
+	
+Browser Calculated Width	
+Border-left	1
+Padding-left	10
+width	400
+padding-right	10
+border-right	1
+Total	422px
