@@ -1,3 +1,14 @@
 h1 {
-    color:yellow
+    color:orange;
+    font-family:courier;
+}
+
+li {
+    font-style: italic;
+}
+
+.album {
+    background-image: url(images/albumcover.jpg);
+   
+  
 }
