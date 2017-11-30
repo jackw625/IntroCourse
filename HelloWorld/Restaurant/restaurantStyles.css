@@ -22,3 +22,19 @@ h1 {
 .requiredstuff {
     font-weight: bold;
 }
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    font-weight:bold;
+}
+
+a:link {
+    text-decoration:none;
+}
+
+th {
+    text-decoration: underline;
+}

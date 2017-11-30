@@ -12,3 +12,19 @@ li {
    
   
 }
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+td {
+    font-style: italic;
+}
+
+table {
+    background-color: lightblue;
+}
