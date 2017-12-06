@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Calculate Numbers</Title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        rel="stylesheet" type="text/css" />
+        <link href="displayevents.css"
+        rel="stylesheet" type="text/css" />
+        <script type="text/JavaScript" src="displayevents.js"></script>
+
+        
+    </head>
+    <body>
+        <h1>Sample</h1>
+        <form name ="numberFun" onsubmit="return validateItems();" 
+             onreset="resetForm()"   class="form-inline">
+            <table class="from-group">
+                <tr class="formrow">
+                    <td class="tablelabel"><label for="startnum">Starting Number </label></td>
+                    <td><input type="number" class="form-control" id="startnum"></td>
+                </tr>
+                <tr>
+                    <td class="tablelabel"><label for="endnum">Ending Number </label></td>
+                    <td><input type="number" class="form-control" id="endnum"></td>
+                </tr>
+                <tr>
+                    <td class="tablelabel"><label for="step">Step </label></td>
+                    <td><input type="number" class="form-control" id="step"></td>
+                </tr>
+                <tr align="center">
+                    <!--<td colspan="2" align="center"><button type="submit" id="displayevens" class="btn btn-default">Display Evens</button></td>-->
+                    <td ><button type="submit" id="displayevens" class="btn btn-default">Display Evens</button></td>
+                    <td ><button type="reset" id="resetevens" class="btn btn-default">Reset</button></td>
+                </tr>
+                               
+            </table>
+            
+            
+        </form>
+        
+        <div id="results" style="display:none;">
+            <div>Here are the even numbers between <span id="startnum1"></span> 
+                and <span id="endnum1"></span> by <span id="step1"></span>'s</div>
+            <span id="evennums"></span></div>
+    </body>
+
+</html>
